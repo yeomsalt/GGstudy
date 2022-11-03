@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: beige;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+nav,
+main {
+  flex: 1;
+  overflow: auto;
+  /* background-color: brown; */
+}
+nav {
+  background: white;
+}
+main {
+  background: cornflowerblue;
+}
